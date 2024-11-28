@@ -3,7 +3,7 @@ def main():
   
   text = get_book_text(book_path)
   num_words = get_num_words(text)
-  num_chars = get_num_char(text)
+  num_chars = get_num_char(text) 
   
 
   chars_sorted_list = chars_dict_to_sorted_list(num_chars)
